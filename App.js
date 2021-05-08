@@ -1,9 +1,9 @@
 import React from 'react';
 import {Alert} from 'react-native';
-import Loading from './Loading';
+import Loading from './Components/Loading';
 import * as Location from 'expo-location';
 import axios from 'axios';
-import Weather from './Weather';
+import Weather from './Components/Weather';
 
 const API_KEY = "a5a90b7aa1149a70323ae122d0f011a7";
 export default class extends React.Component {
